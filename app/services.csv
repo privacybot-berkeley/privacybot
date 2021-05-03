@@ -1,0 +1,2 @@
+service_name_cleaned,privacy_dept_contact_email,firstname,lastname,email,full_address,city,state,zip,country,dob,age,phone_num,cc_last4,device_ad_id,twitter_handle,link_to_profile,gov_photo_id,used_by_le,notes
+exampledatabroker,randomemailaddress@gmail.com,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
