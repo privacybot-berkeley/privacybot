@@ -1,22 +1,21 @@
 # PrivacyBot
 
-## What is PrivacyBot?
-This is a simple automated service to initiate CCPA deletion requests with [databrokers](https://docs.google.com/spreadsheets/d/1JY5bPJKBSnqgfC1JMMAkpXloIk_4rwJbvKoerZPw31w/edit#gid=0).
+PrivacyBot is a simple automated service to initiate CCPA deletion requests with databrokers.
 
-## Create the labels in your GMAIL account
-Before proceeding with the installation of this app, create a label called "PrivacyBot" for all emails with "CCPA Data Deletion Request" in the subject line in your GMAIL account (this is the account you will be using in Step 6 while entering your personal details). 
+## How It Works
+1. PrivacyBot comprises of a React Frontend and a Python Flask Backend web architecture
+2. After starting the application, PrivacyBot initiates an OAuth authentication request with your Gmail account. You will be asked to allow PrivacyBot to read, compose and send emails from your Gmail account. 
+3. Once the authentication is successfully completed, depending on the data provided to the Flask API, a CCPA data delete email is drafted and sent to the data brokers chosen. 
+4. A confirmation email is sent listing all the databrokers to whom the email was sent or not sent. 
 
-This will ensure easier management of emails with data brokers. 
+## Usage
 
-You can follow this link to know more about how to create labels: https://support.google.com/mail/answer/6579?hl=en
+### Prerequisites
 
-## Requirements  (Prerequisites)
-Tools and packages required to successfully install this project.
-For example:
-* Install Python 3 (https://link-for-setup-guide)
-* Install pip 3 (https://pip.pypa.io/en/stable/installing/)
-* Install node https://nodejs.org/en/download/ 
-* Install Visual Studio Code or an editor of your choice.
+1. A Gmail account - This is the email from which you will be initiating the data delete requests. PrivacyBot's data deletion process is most effective if this email is the one which you use the most for personal use. 
+2. Python 3 (https://www.python.org/downloads/)
+3. Ensure pip3 is installed (https://pip.pypa.io/en/stable/installing/)
+4. Install node https://nodejs.org/en/download/ 
 
 #### 1. Download zip file from Github Repo and unzip 
 
