@@ -1,0 +1,5 @@
+app/__pycache__/**
+app/token*
+privacybot/
+privacybot/**
+
