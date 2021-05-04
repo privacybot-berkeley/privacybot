@@ -2,7 +2,7 @@
 Convert CSV to Dictionary, Write and Send Emails.
 """
 
-import csv
+import csv, os, glob
 from Google import Create_Service
 import base64
 from email.mime.multipart import MIMEMultipart
@@ -194,6 +194,10 @@ def sendEmail(usrjson, services_map):
     cnf_string = base64.urlsafe_b64encode(cnfMessage.as_bytes()).decode()
     cnf_message = gmail_service.users().messages().send(userId='me', body={'raw': cnf_string}).execute()
     cnf_label = gmail_service.users().messages().modify(userId='me', id=message_id, body={"addLabelIds":[label_id,]}).execute()
+
+    # Delete the token file
+    for filename in glob.glob("token_gmail*"):
+        os.remove(filename)
 
 def privacyAPI(usrjson, service_map):
     '''
