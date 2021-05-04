@@ -6,17 +6,18 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 1. PrivacyBot comprises of a React Frontend and a Python Flask Backend web architecture
 2. After starting the application, PrivacyBot initiates an OAuth authentication request with your Gmail account. You will be asked to allow PrivacyBot to read, compose and send emails from your Gmail account. 
 3. Once the authentication is successfully completed, depending on the data provided to the Flask API, a CCPA data delete email is drafted and sent to the data brokers chosen. 
-4. A confirmation email is sent listing all the databrokers to whom the email was sent or not sent. 
+4. A confirmation email is sent back to you listing all the databrokers to whom the email was sent. 
 
 ## Usage
 
 ### Prerequisites
 
 1. A Gmail account - This is the email from which you will be initiating the data delete requests. PrivacyBot's data deletion process is most effective if this email is the one which you use the most for personal use. 
-2. Python 3 (https://www.python.org/downloads/)
+2. Install Python 3 (https://www.python.org/downloads/)
 3. Ensure pip3 is installed (https://pip.pypa.io/en/stable/installing/)
 4. Install node https://nodejs.org/en/download/ 
 
+### 
 #### 1. Download zip file from Github Repo and unzip 
 
 #### 2. Open Visual Studio Code and open the “privacybot-private-main” folder 
