@@ -8,16 +8,14 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 3. Once the authentication is successfully completed, depending on the data provided to the Flask API, a CCPA data delete email is drafted and sent to the data brokers chosen. 
 4. A confirmation email is sent back to you listing all the databrokers to whom the email was sent. 
 
-## Usage
-
-### Prerequisites
+## Prerequisites
 
 1. A Gmail account - This is the email from which you will be initiating the data delete requests. PrivacyBot's data deletion process is most effective if this email is the one which you use the most for personal use. 
 2. Install Python 3 (https://www.python.org/downloads/)
 3. Ensure pip3 is installed (https://pip.pypa.io/en/stable/installing/)
 4. Install node https://nodejs.org/en/download/ 
 
-### Running PrivacyBot
+## Usage - Running PrivacyBot
 
 #### 1. Download zip file from Github Repo and unzip 
 
@@ -26,7 +24,7 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 #### 3. Open split terminal in VS Code (or any two terminals/cmd prompts on your machine). We will be using one terminal to run the Flask app and the other one to run the React app.
 
 
-## Start the Flask Server 
+### Start the Flask Server 
 
 #### 1. Create and activate a Python Virtual Environment 
 
@@ -53,7 +51,7 @@ The above commands will start the flask application. It can now be accessed thro
 
 Leave this terminal instance as is, and open the second terminal instance. 
 
-## Start the React Application
+### Start the React Application
 PFB a step by step list of commands that informs how to install an instance of the React Server. 
 
 #### 1. Run the following commands in the second terminal to navigate to the `app/PB_UI` folder 
