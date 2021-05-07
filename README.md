@@ -17,7 +17,8 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 3. Ensure pip3 is installed (https://pip.pypa.io/en/stable/installing/)
 4. Install node https://nodejs.org/en/download/ 
 
-### 
+### Running PrivacyBot
+
 #### 1. Download zip file from Github Repo and unzip 
 
 #### 2. Open Visual Studio Code and open the “privacybot-private-main” folder 
@@ -35,47 +36,47 @@ The below commands create and activate a virtual environment named "PB_venv".
 
 `$ source PB_venv/bin/activate`
 
-#### 2. Install from requirements.txt
+#### 2. Navigate to `app` folder and install from requirements.txt
 
+`$ cd app`
 `$ pip3 install -r requirements.txt`
 
 To confirm required packages are installed - see if “flask_cors” is installed:
 `$ pip3 list`
 
-#### 3: Start Flask App
+#### 3: Start the Flask App
 Run the below commands within the activated virtual environment.
-
-`$ cd app`
 
 `$ flask run`
 
-The above commands should start the flask application. It can now be accessed through http://127.0.0.1:5000/
+The above commands will start the flask application. It can now be accessed through http://127.0.0.1:5000/
 
 Leave this terminal instance as is, and open the second terminal instance. 
 
 ## Start the React Application
-PFB a step by step list of commands / guide that informs how to install an instance of the React Server. 
+PFB a step by step list of commands that informs how to install an instance of the React Server. 
 
-#### 1. Run the following commands in the second terminal: 
+#### 1. Run the following commands in the second terminal to navigate to the `app/PB_UI` folder 
 
+`$ cd app`
 `$ cd PB_UI`
 
 #### 2. Check to make sure node and npm is correctly installed
 
 `$ node -v`
-
-`$ npm-v`
+`$ npm -v`
 
 #### 3. Install the required packages using npm install. Fix any vulnerabilities found. 
-`$ npm install`
 
+`$ npm install`
 `$ npm audit fix`
 
-#### 4. Start the React Application by running the below commands
-`$ npm run build`
+#### 4. Start the React Application by running the below commands. This may take a moment.
 
+`$ npm run build`
 `$ npm start`
 
-#### 5. Follow the steps and authenticate your Gmail account 
+#### 5. PrivacyBot will now be running on your local machine. 
+You will now be able to use it to submit your data deletion requests! This will include authenticating your gmail account after the form is submitted.
 
 #### 6. Remove access to PrivacyBot from your Gmail account
