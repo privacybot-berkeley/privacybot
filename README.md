@@ -37,9 +37,11 @@ The below commands create and activate a virtual environment named "PB_venv".
 #### 2. Navigate to `app` folder and install from requirements.txt
 
 `$ cd app`
+
 `$ pip3 install -r requirements.txt`
 
 To confirm required packages are installed - see if “flask_cors” is installed:
+
 `$ pip3 list`
 
 #### 3: Start the Flask App
@@ -57,24 +59,28 @@ PFB a step by step list of commands that informs how to install an instance of t
 #### 1. Run the following commands in the second terminal to navigate to the `app/PB_UI` folder 
 
 `$ cd app`
+
 `$ cd PB_UI`
 
 #### 2. Check to make sure node and npm is correctly installed
 
 `$ node -v`
+
 `$ npm -v`
 
 #### 3. Install the required packages using npm install. Fix any vulnerabilities found. 
 
 `$ npm install`
+
 `$ npm audit fix`
 
 #### 4. Start the React Application by running the below commands. This may take a moment.
 
 `$ npm run build`
+
 `$ npm start`
 
 #### 5. PrivacyBot will now be running on your local machine. 
-You will now be able to use it to submit your data deletion requests! This will include authenticating your gmail account after the form is submitted.
+You will now be able to fill in the required details on the browser form that is opened by the above React commands. Once the required details are filled in and your GMAIL account is authenticated successfully, PrivacyBot will automatically send data deletion requests to the chosen list of data brokers! Yay!
 
 #### 6. Remove access to PrivacyBot from your Gmail account
