@@ -8,6 +8,8 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 3. Once the authentication is successfully completed, depending on the data provided to the Flask API, a CCPA data delete email is drafted and sent to the data brokers chosen. 
 4. A confirmation email is sent back to you listing all the databrokers to whom the email was sent. 
 
+## NOTE - google verficiation in progress
+
 ## Prerequisites
 
 1. A Gmail account - This is the email from which you will be initiating the data delete requests. PrivacyBot's data deletion process is most effective if this email is the one which you use the most for personal use. 
