@@ -1,4 +1,4 @@
-service_name_cleaned,category,topchoice,privacy_dept_contact_email,sensitivity (how bad would it be if there was an accidental delete),firstname,lastname,email,full_address,city,state,zip,country,dob,age,phone_num,cc_last4,device_ad_id,twitter_handle,link_to_profile,gov_photo_id,used_by_le,notes
+service_name_cleaned,category,top_choice,privacy_dept_contact_email,sensitivity (how bad would it be if there was an accidental delete),firstname,lastname,email,full_address,city,state,zip,country,dob,age,phone_num,cc_last4,device_ad_id,twitter_handle,link_to_profile,gov_photo_id,used_by_le,notes
 180bytwo,data broker,NO,privacy@180bytwo.com,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,
 33across,data broker,NO,privacy@33across.com,,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,* can't find exactly what is needed to delete
 33mileradius,data broker,NO,privacy@33mileradius.com,,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,* privacy policy does not explicity say what you need to give them to delete
