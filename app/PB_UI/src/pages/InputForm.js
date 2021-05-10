@@ -42,6 +42,8 @@ class InputForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault()
+    const r = window.confirm("You're about to initiate email conversations with 90-500+ data brokers. Are you sure you want to proceed?")
+    if (r === true){
     axios.post('http://localhost:5000/privacyAPI/v1/', this.state)
     .then(function (response) {
       console.log(response);
@@ -51,6 +53,7 @@ class InputForm extends React.Component {
     });
     this.props.history.push('/about');
   }
+}
 
   handleInputChange = (event) => {
     event.preventDefault()
@@ -525,7 +528,7 @@ class InputForm extends React.Component {
                     <div className="max-w-sm mx-auto">
                       <div className="flex max-w-sm flex-wrap pt-16 pb-12">
                         <div className="w-full px-3">
-                          <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full" onClick={() => {if(window.confirm("Are you sure? You are about to send emails to 500+ data brokers!\nDouble check your information is correct.")){};}}>Send Emails</button>
+                          <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full" type="submit">Send Emails</button>
                         </div>
                       </div>
                       <div className="text-sm text-gray-500 text-center">
