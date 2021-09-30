@@ -1,3 +1,6 @@
+# PROJECT NO LONGER SUPPORTED
+## As of 9.28.21 this project has been depreciated and Google Oauth verification is not supported. You can still run the tool but you need to setup your own instance of Google Oauth credentials.
+
 # PrivacyBot
 
 PrivacyBot is a simple automated service to initiate CCPA deletion requests with databrokers.
@@ -8,7 +11,7 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 3. Once the authentication is successfully completed, depending on the data provided to the Flask API, a CCPA data delete email is drafted and sent to the data brokers chosen. 
 4. A confirmation email is sent back to you listing all the databrokers to whom the email was sent. 
 
-## NOTE - As of 9.28.21 this project has been depreciated and Google Oauth verification is not supported. You can still run the tool but you need to setup your own instance of Google Oauth credentials.
+
 
 ## Prerequisites
 
