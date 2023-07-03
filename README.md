@@ -18,7 +18,7 @@ PrivacyBot is a simple automated service to initiate CCPA deletion requests with
 1. A Gmail account - This is the email from which you will be initiating the data delete requests. PrivacyBot's data deletion process is most effective if this email is the one which you use the most for personal use. 
 2. Install Python 3 (https://www.python.org/downloads/)
 3. Ensure pip3 is installed (https://pip.pypa.io/en/stable/installing/)
-4. Install node https://nodejs.org/en/download/ 
+4. Install node v16, npm v8. https://nodejs.org/en/download/ (package manager, brew, or https://nodejs.org/download/release/v16.20.1/ )
 
 ## Usage - Running PrivacyBot
 
